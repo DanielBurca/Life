@@ -20,7 +20,7 @@ namespace Life_Engine
             {
                 for (int j = 0; j < grid.Celle.GetLength(1); j++)
                 {
-                    VerificaCelleAdiacenti(i, j, grid, ref contatore);
+                    VerificaCelleAdiacenti(i, j, grid, ref cont atore);
                     VerificaEAggiornaStatoCella(ref gridris.Celle[i, j], grid.Celle[i, j], contatore);
                     contatore = 0;
                 }
